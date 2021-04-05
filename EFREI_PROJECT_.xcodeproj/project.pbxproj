@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C33F125261B2969002FF48A /* SpeakerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F124261B2968002FF48A /* SpeakerCell.swift */; };
+		4C33F12D261B2A45002FF48A /* SpeakersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F12C261B2A45002FF48A /* SpeakersTableViewController.swift */; };
+		4C33F132261B678D002FF48A /* SpeakerDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F131261B678D002FF48A /* SpeakerDetailsController.swift */; };
+		4C33F137261B807A002FF48A /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F136261B807A002FF48A /* ActivityCell.swift */; };
+		4C33F13C261BA9CD002FF48A /* CompaniesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F13B261BA9CD002FF48A /* CompaniesCollectionViewController.swift */; };
+		4C33F141261BAA49002FF48A /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F140261BAA49002FF48A /* CompanyCell.swift */; };
 		4C65D10F260B5EFE006E7983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D10E260B5EFE006E7983 /* AppDelegate.swift */; };
 		4C65D111260B5EFE006E7983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D110260B5EFE006E7983 /* SceneDelegate.swift */; };
 		4C65D113260B5EFE006E7983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D112260B5EFE006E7983 /* ViewController.swift */; };
@@ -15,6 +21,10 @@
 		4C65D11B260B5F04006E7983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C65D119260B5F04006E7983 /* LaunchScreen.storyboard */; };
 		4C65D126260B5F04006E7983 /* EFREI_PROJECT_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D125260B5F04006E7983 /* EFREI_PROJECT_Tests.swift */; };
 		4C65D131260B5F04006E7983 /* EFREI_PROJECT_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D130260B5F04006E7983 /* EFREI_PROJECT_UITests.swift */; };
+		4CD6E70A260B956300193FE0 /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E709260B956300193FE0 /* ScheduleTableViewController.swift */; };
+		4CD6E713260B95EB00193FE0 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E712260B95EB00193FE0 /* ScheduleCell.swift */; };
+		4CD6E72F2614C5C800193FE0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E72E2614C5C800193FE0 /* DetailViewController.swift */; };
+		4CD9766A260B630700C0C97B /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD97669260B630700C0C97B /* Api.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C33F124261B2968002FF48A /* SpeakerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerCell.swift; sourceTree = "<group>"; };
+		4C33F12C261B2A45002FF48A /* SpeakersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersTableViewController.swift; sourceTree = "<group>"; };
+		4C33F131261B678D002FF48A /* SpeakerDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerDetailsController.swift; sourceTree = "<group>"; };
+		4C33F136261B807A002FF48A /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		4C33F13B261BA9CD002FF48A /* CompaniesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesCollectionViewController.swift; sourceTree = "<group>"; };
+		4C33F140261BAA49002FF48A /* CompanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
 		4C65D10B260B5EFE006E7983 /* EFREI_PROJECT_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFREI_PROJECT_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C65D10E260B5EFE006E7983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C65D110260B5EFE006E7983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,10 @@
 		4C65D12C260B5F04006E7983 /* EFREI_PROJECT_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFREI_PROJECT_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C65D130260B5F04006E7983 /* EFREI_PROJECT_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFREI_PROJECT_UITests.swift; sourceTree = "<group>"; };
 		4C65D132260B5F04006E7983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD6E709260B956300193FE0 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		4CD6E712260B95EB00193FE0 /* ScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		4CD6E72E2614C5C800193FE0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4CD97669260B630700C0C97B /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +119,15 @@
 		4C65D10D260B5EFE006E7983 /* EFREI_PROJECT_ */ = {
 			isa = PBXGroup;
 			children = (
+				4CD6E70E260B95B900193FE0 /* Cells */,
+				4CD6E708260B955400193FE0 /* Controllers */,
 				4C65D10E260B5EFE006E7983 /* AppDelegate.swift */,
 				4C65D110260B5EFE006E7983 /* SceneDelegate.swift */,
 				4C65D112260B5EFE006E7983 /* ViewController.swift */,
+				4C65D119260B5F04006E7983 /* LaunchScreen.storyboard */,
+				4CD97669260B630700C0C97B /* Api.swift */,
 				4C65D114260B5EFE006E7983 /* Main.storyboard */,
 				4C65D117260B5F04006E7983 /* Assets.xcassets */,
-				4C65D119260B5F04006E7983 /* LaunchScreen.storyboard */,
 				4C65D11C260B5F04006E7983 /* Info.plist */,
 			);
 			path = EFREI_PROJECT_;
@@ -126,6 +149,29 @@
 				4C65D132260B5F04006E7983 /* Info.plist */,
 			);
 			path = EFREI_PROJECT_UITests;
+			sourceTree = "<group>";
+		};
+		4CD6E708260B955400193FE0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CD6E709260B956300193FE0 /* ScheduleTableViewController.swift */,
+				4CD6E72E2614C5C800193FE0 /* DetailViewController.swift */,
+				4C33F12C261B2A45002FF48A /* SpeakersTableViewController.swift */,
+				4C33F131261B678D002FF48A /* SpeakerDetailsController.swift */,
+				4C33F13B261BA9CD002FF48A /* CompaniesCollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4CD6E70E260B95B900193FE0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4CD6E712260B95EB00193FE0 /* ScheduleCell.swift */,
+				4C33F124261B2968002FF48A /* SpeakerCell.swift */,
+				4C33F136261B807A002FF48A /* ActivityCell.swift */,
+				4C33F140261BAA49002FF48A /* CompanyCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +304,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C33F13C261BA9CD002FF48A /* CompaniesCollectionViewController.swift in Sources */,
+				4C33F137261B807A002FF48A /* ActivityCell.swift in Sources */,
+				4CD6E70A260B956300193FE0 /* ScheduleTableViewController.swift in Sources */,
 				4C65D113260B5EFE006E7983 /* ViewController.swift in Sources */,
+				4C33F132261B678D002FF48A /* SpeakerDetailsController.swift in Sources */,
 				4C65D10F260B5EFE006E7983 /* AppDelegate.swift in Sources */,
+				4CD6E713260B95EB00193FE0 /* ScheduleCell.swift in Sources */,
+				4CD9766A260B630700C0C97B /* Api.swift in Sources */,
 				4C65D111260B5EFE006E7983 /* SceneDelegate.swift in Sources */,
+				4C33F141261BAA49002FF48A /* CompanyCell.swift in Sources */,
+				4C33F12D261B2A45002FF48A /* SpeakersTableViewController.swift in Sources */,
+				4CD6E72F2614C5C800193FE0 /* DetailViewController.swift in Sources */,
+				4C33F125261B2969002FF48A /* SpeakerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +495,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2WJ7VT82Z;
 				INFOPLIST_FILE = EFREI_PROJECT_/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2WJ7VT82Z;
 				INFOPLIST_FILE = EFREI_PROJECT_/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
