@@ -108,9 +108,9 @@ class ScheduleTableViewController: UITableViewController {
         chosenActivity = activities[indexPath.section]
         performSegue(withIdentifier: "goToDetails", sender: self)
     }
-
+    
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return 1
     }
     
@@ -131,10 +131,6 @@ class ScheduleTableViewController: UITableViewController {
         let dateEnd = dateFormatter.date(from: activities[indexPath.section].fields.end ?? "2017-01-09T11:00:00.000Z")!
         let calanderDateEnd = Calendar.current.dateComponents([.minute,.hour,.day, .year, .month], from: dateEnd)
         cell.dateLbl.text = calanderDate.day!.description + "/" + calanderDate.month!.description + "/" + calanderDate.year!.description
-        
-        
-        
-       
         
         cell.startLbl.text = calanderDate.hour!.description + "h" + calanderDate.minute!.description
         
@@ -222,6 +218,5 @@ class ScheduleTableViewController: UITableViewController {
         vc?.schedule = chosenActivity
         // Pass the selected object to the new view controller.
     }
-    
 
 }

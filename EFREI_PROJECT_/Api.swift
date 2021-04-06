@@ -107,6 +107,34 @@ struct Airtable {
         task.resume()
     }
     
+    static func fetchLocation(from url: String,comp: @escaping ([Location])->()){
+        let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: { (data, response, error) in
+            if let error = error {
+                print("Error with fetching Sponsors: \(error)")
+                return
+              }
+            
+            var result: LocationResponse?
+            
+            do{
+                result = try JSONDecoder().decode(LocationResponse.self, from: data!)
+            }
+            catch{
+                print("failed to convert")
+            }
+            
+            guard let json = result else{
+                return
+            }
+            
+            comp(json.records)
+            
+
+        
+        })
+        task.resume()
+    }
+    
     static func getLocation(from url: String, comp: @escaping (Location)->()){
         //let semaphore = DispatchSemaphore(value: 0)
         
@@ -329,12 +357,14 @@ struct LocationFields: Codable {
     let name: String?
     let adress: String?
     let image: [Photo]?
+    let scheduledEvents: [String]?
     
     enum CodingKeys: String, CodingKey {
         case name = "Space name"
         case adress = "Building location"
         case description = "Description"
         case image = "Photo(s)"
+        case scheduledEvents = "Scheduled events"
     }
 }
 struct Photo: Codable{
