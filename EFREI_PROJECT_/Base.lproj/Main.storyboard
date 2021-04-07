@@ -107,7 +107,7 @@
             <objects>
                 <tableViewController id="TBj-LV-2ND" customClass="ScheduleTableViewController" customModule="EFREI_PROJECT_" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iVB-Ua-k7q">
-                        <rect key="frame" x="0.0" y="0.0" width="374" height="486"/>
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="486.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <color key="sectionIndexColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -317,8 +317,8 @@
                                     <constraint firstAttribute="height" constant="250" id="Ngl-3n-cd5"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bNm-X7-GUL">
-                                <rect key="frame" x="0.0" y="254" width="374" height="130"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bNm-X7-GUL">
+                                <rect key="frame" x="0.0" y="210" width="374" height="130"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67d-2a-hxm">
                                         <rect key="frame" x="8" y="8" width="37.5" height="40"/>
@@ -329,7 +329,7 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ap7-aA-PdY">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ap7-aA-PdY">
                                         <rect key="frame" x="286" y="25" width="80" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnV-id-Ix9">
@@ -408,8 +408,8 @@
                                     <constraint firstAttribute="bottom" secondItem="BtR-NS-jbf" secondAttribute="bottom" constant="4.5" id="y2F-Af-DzY"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DEZ-YS-lwk">
-                                <rect key="frame" x="50" y="404" width="274" height="24"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DEZ-YS-lwk">
+                                <rect key="frame" x="50" y="360" width="274" height="24"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YNc-Ec-Mcw">
                                         <rect key="frame" x="5" y="3.5" width="32" height="17.5"/>
@@ -438,8 +438,8 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="n4B-lD-BOQ">
                                 <rect key="frame" x="50" y="462" width="274" height="256"/>
                             </mapView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-no-U5O">
-                                <rect key="frame" x="87" y="458" width="200" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzb-no-U5O">
+                                <rect key="frame" x="87" y="414" width="200" height="30"/>
                                 <color key="backgroundColor" name="Slate"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="M0n-Kg-Ghv"/>
@@ -1008,7 +1008,7 @@
                         <outlet property="mapView" destination="Icz-b5-eLa" id="xtZ-JV-Pmi"/>
                         <outlet property="nameLbl" destination="hnV-g4-w1J" id="qwd-iC-5o7"/>
                         <outlet property="showdetailsButton" destination="6ep-5n-TXV" id="V9P-HC-d7Z"/>
-                        <segue destination="6iX-ga-Egu" kind="show" identifier="doDetails" id="BZn-dj-U5D"/>
+                        <segue destination="6iX-ga-Egu" kind="show" identifier="goDetails" id="BZn-dj-U5D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BUt-jR-pe4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1083,7 +1083,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQN-ne-1Yp">
-                                <rect key="frame" x="20" y="327" width="374" height="486"/>
+                                <rect key="frame" x="20" y="326.5" width="374" height="486.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
