@@ -29,20 +29,20 @@ class MyTabBarController: UITabBarController {
         
         self.tabBar.frame.origin.y = self.tabBar.frame.origin.y - 15
         
-        let homeView = UIView(frame: CGRect.init(x: self.tabBar.frame.minX, y: self.tabBar.frame.minY, width: tabBar.frame.width / 4, height: tabBar.frame.height))
+        let homeView = UIView(frame: CGRect.init(x: self.tabBar.frame.minX, y: self.tabBar.frame.minY, width: tabBar.frame.width / 4, height: tabBar.frame.height + 15))
         homeView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(homeSelected)))
         homeView.backgroundColor = UIColor.white
         
         barView = UIView(frame: CGRect.init(x: 0, y: self.tabBar.frame.maxY - 5, width: tabBar.frame.width / 4, height: 5))
         
         barView.backgroundColor = UIColor.darkGray
-        homeIcon.frame =  CGRect(x: homeView.frame.width/4 , y: homeView.frame.height/8, width: homeView.frame.width/2, height: homeView.frame.width/2)
+        homeIcon.frame =  CGRect(x: homeView.frame.width/4 , y: homeView.frame.height/8, width: homeView.frame.width/2, height: homeView.frame.width/2 )
         
 
         
         homeView.addSubview(homeIcon)
        
-        let companiesView = UIView(frame: CGRect.init(x: self.tabBar.frame.minX + tabBar.frame.width / 4 , y: self.tabBar.frame.minY, width: tabBar.frame.width / 4, height: tabBar.frame.height))
+        let companiesView = UIView(frame: CGRect.init(x: self.tabBar.frame.minX + tabBar.frame.width / 4 , y: self.tabBar.frame.minY, width: tabBar.frame.width / 4, height: tabBar.frame.height + 15))
         
         companiesView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(companiesSelected)))
         companiesView.backgroundColor = UIColor.white
@@ -52,7 +52,7 @@ class MyTabBarController: UITabBarController {
         companyIcon.contentMode = .scaleToFill
         companiesView.addSubview(companyIcon)
         
-        let speakersView = UIView(frame: CGRect.init(x: self.tabBar.frame.minX + (tabBar.frame.width / 4) * 2 , y: self.tabBar.frame.minY, width: tabBar.frame.width / 4, height: tabBar.frame.height))
+        let speakersView = UIView(frame: CGRect.init(x: self.tabBar.frame.minX + (tabBar.frame.width / 4) * 2 , y: self.tabBar.frame.minY, width: tabBar.frame.width / 4, height: tabBar.frame.height  + 15))
         speakersView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(speakersSelected)))
         speakersView.backgroundColor = UIColor.white
         
@@ -63,7 +63,7 @@ class MyTabBarController: UITabBarController {
         speakersView.addSubview(speakersIcon)
         
         
-        let mapView = UIView(frame: CGRect.init(x: self.tabBar.frame.minX + (tabBar.frame.width / 4) * 3 , y: self.tabBar.frame.minY, width: tabBar.frame.width / 4, height: tabBar.frame.height))
+        let mapView = UIView(frame: CGRect.init(x: self.tabBar.frame.minX + (tabBar.frame.width / 4) * 3 , y: self.tabBar.frame.minY, width: tabBar.frame.width / 4, height: tabBar.frame.height + 15))
         mapView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(mapSelected)))
         mapView.backgroundColor = UIColor.white
         

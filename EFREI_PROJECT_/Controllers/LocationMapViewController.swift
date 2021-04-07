@@ -53,7 +53,7 @@ class LocationMapViewController: UIViewController, MKMapViewDelegate, CLLocation
         
         let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.light)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        blurEffectView.frame = view.bounds
+        blurEffectView.frame = mapView.bounds
         blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         blurryView.addSubview(blurEffectView)
         
