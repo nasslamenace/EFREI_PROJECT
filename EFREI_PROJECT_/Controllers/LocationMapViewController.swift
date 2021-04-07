@@ -50,7 +50,6 @@ class LocationMapViewController: UIViewController, MKMapViewDelegate, CLLocation
         // Do any additional setup after loading the view.
         mapView.delegate = self
         mapView.userTrackingMode = MKUserTrackingMode.follow //On suit l'utilisateur
-        mapView.register(LocationAnnotationView.self, forAnnotationViewWithReuseIdentifier: "myAnnotation")
         
         let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.light)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)

@@ -16,11 +16,11 @@
 		4C33F146261C8301002FF48A /* LocationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F145261C8300002FF48A /* LocationMapViewController.swift */; };
 		4C33F14B261C8C4A002FF48A /* CustomPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F14A261C8C4A002FF48A /* CustomPin.swift */; };
 		4C33F150261CC027002FF48A /* LocationActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F14F261CC026002FF48A /* LocationActivityCell.swift */; };
-		4C33F155261CDADF002FF48A /* LocationAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F154261CDADF002FF48A /* LocationAnnotationView.swift */; };
-		4C33F15A261CDCFB002FF48A /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F159261CDCFB002FF48A /* PinView.swift */; };
-		4C33F15F261CDD2B002FF48A /* PinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C33F15E261CDD2B002FF48A /* PinView.xib */; };
 		4C3A66B8261DC6C0009E1288 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A66B7261DC6C0009E1288 /* MyTabBarController.swift */; };
 		4C3A66BD261DCCA3009E1288 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A66BC261DCCA3009E1288 /* MyTabBar.swift */; };
+		4C3A66C2261DDD71009E1288 /* ScheduleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A66C1261DDD71009E1288 /* ScheduleTest.swift */; };
+		4C3A66C7261DDF06009E1288 /* AirtableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A66C6261DDF06009E1288 /* AirtableTest.swift */; };
+		4C3A66D2261DF246009E1288 /* CustomPinTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A66D1261DF246009E1288 /* CustomPinTest.swift */; };
 		4C65D10F260B5EFE006E7983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D10E260B5EFE006E7983 /* AppDelegate.swift */; };
 		4C65D111260B5EFE006E7983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D110260B5EFE006E7983 /* SceneDelegate.swift */; };
 		4C65D113260B5EFE006E7983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D112260B5EFE006E7983 /* ViewController.swift */; };
@@ -62,11 +62,11 @@
 		4C33F145261C8300002FF48A /* LocationMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapViewController.swift; sourceTree = "<group>"; };
 		4C33F14A261C8C4A002FF48A /* CustomPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPin.swift; sourceTree = "<group>"; };
 		4C33F14F261CC026002FF48A /* LocationActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationActivityCell.swift; sourceTree = "<group>"; };
-		4C33F154261CDADF002FF48A /* LocationAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotationView.swift; sourceTree = "<group>"; };
-		4C33F159261CDCFB002FF48A /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
-		4C33F15E261CDD2B002FF48A /* PinView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinView.xib; sourceTree = "<group>"; };
 		4C3A66B7261DC6C0009E1288 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		4C3A66BC261DCCA3009E1288 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
+		4C3A66C1261DDD71009E1288 /* ScheduleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTest.swift; sourceTree = "<group>"; };
+		4C3A66C6261DDF06009E1288 /* AirtableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtableTest.swift; sourceTree = "<group>"; };
+		4C3A66D1261DF246009E1288 /* CustomPinTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPinTest.swift; sourceTree = "<group>"; };
 		4C65D10B260B5EFE006E7983 /* EFREI_PROJECT_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFREI_PROJECT_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C65D10E260B5EFE006E7983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C65D110260B5EFE006E7983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,9 +145,6 @@
 				4C65D114260B5EFE006E7983 /* Main.storyboard */,
 				4C65D117260B5F04006E7983 /* Assets.xcassets */,
 				4C65D11C260B5F04006E7983 /* Info.plist */,
-				4C33F154261CDADF002FF48A /* LocationAnnotationView.swift */,
-				4C33F159261CDCFB002FF48A /* PinView.swift */,
-				4C33F15E261CDD2B002FF48A /* PinView.xib */,
 				4C3A66BC261DCCA3009E1288 /* MyTabBar.swift */,
 			);
 			path = EFREI_PROJECT_;
@@ -158,6 +155,9 @@
 			children = (
 				4C65D125260B5F04006E7983 /* EFREI_PROJECT_Tests.swift */,
 				4C65D127260B5F04006E7983 /* Info.plist */,
+				4C3A66C1261DDD71009E1288 /* ScheduleTest.swift */,
+				4C3A66C6261DDF06009E1288 /* AirtableTest.swift */,
+				4C3A66D1261DF246009E1288 /* CustomPinTest.swift */,
 			);
 			path = EFREI_PROJECT_Tests;
 			sourceTree = "<group>";
@@ -303,7 +303,6 @@
 			files = (
 				4C65D11B260B5F04006E7983 /* LaunchScreen.storyboard in Resources */,
 				4C65D118260B5F04006E7983 /* Assets.xcassets in Resources */,
-				4C33F15F261CDD2B002FF48A /* PinView.xib in Resources */,
 				4C65D116260B5EFE006E7983 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,13 +338,11 @@
 				4C33F132261B678D002FF48A /* SpeakerDetailsController.swift in Sources */,
 				4C65D10F260B5EFE006E7983 /* AppDelegate.swift in Sources */,
 				4CD6E713260B95EB00193FE0 /* ScheduleCell.swift in Sources */,
-				4C33F155261CDADF002FF48A /* LocationAnnotationView.swift in Sources */,
 				4CD9766A260B630700C0C97B /* Api.swift in Sources */,
 				4C33F14B261C8C4A002FF48A /* CustomPin.swift in Sources */,
 				4C65D111260B5EFE006E7983 /* SceneDelegate.swift in Sources */,
 				4C33F150261CC027002FF48A /* LocationActivityCell.swift in Sources */,
 				4C33F141261BAA49002FF48A /* CompanyCell.swift in Sources */,
-				4C33F15A261CDCFB002FF48A /* PinView.swift in Sources */,
 				4C33F12D261B2A45002FF48A /* SpeakersTableViewController.swift in Sources */,
 				4CD6E72F2614C5C800193FE0 /* DetailViewController.swift in Sources */,
 				4C33F125261B2969002FF48A /* SpeakerCell.swift in Sources */,
@@ -356,7 +353,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3A66D2261DF246009E1288 /* CustomPinTest.swift in Sources */,
+				4C3A66C2261DDD71009E1288 /* ScheduleTest.swift in Sources */,
 				4C65D126260B5F04006E7983 /* EFREI_PROJECT_Tests.swift in Sources */,
+				4C3A66C7261DDF06009E1288 /* AirtableTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

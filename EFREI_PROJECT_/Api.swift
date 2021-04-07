@@ -328,6 +328,7 @@ struct Schedule: Codable, Comparable{
     let createdTime: String
 }
 
+
 struct Location: Codable{
     let id: String
     let fields: LocationFields
