@@ -19,6 +19,8 @@
 		4C33F155261CDADF002FF48A /* LocationAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F154261CDADF002FF48A /* LocationAnnotationView.swift */; };
 		4C33F15A261CDCFB002FF48A /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33F159261CDCFB002FF48A /* PinView.swift */; };
 		4C33F15F261CDD2B002FF48A /* PinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C33F15E261CDD2B002FF48A /* PinView.xib */; };
+		4C3A66B8261DC6C0009E1288 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A66B7261DC6C0009E1288 /* MyTabBarController.swift */; };
+		4C3A66BD261DCCA3009E1288 /* MyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A66BC261DCCA3009E1288 /* MyTabBar.swift */; };
 		4C65D10F260B5EFE006E7983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D10E260B5EFE006E7983 /* AppDelegate.swift */; };
 		4C65D111260B5EFE006E7983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D110260B5EFE006E7983 /* SceneDelegate.swift */; };
 		4C65D113260B5EFE006E7983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65D112260B5EFE006E7983 /* ViewController.swift */; };
@@ -63,6 +65,8 @@
 		4C33F154261CDADF002FF48A /* LocationAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotationView.swift; sourceTree = "<group>"; };
 		4C33F159261CDCFB002FF48A /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 		4C33F15E261CDD2B002FF48A /* PinView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinView.xib; sourceTree = "<group>"; };
+		4C3A66B7261DC6C0009E1288 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		4C3A66BC261DCCA3009E1288 /* MyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBar.swift; sourceTree = "<group>"; };
 		4C65D10B260B5EFE006E7983 /* EFREI_PROJECT_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFREI_PROJECT_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C65D10E260B5EFE006E7983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C65D110260B5EFE006E7983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 				4C33F154261CDADF002FF48A /* LocationAnnotationView.swift */,
 				4C33F159261CDCFB002FF48A /* PinView.swift */,
 				4C33F15E261CDD2B002FF48A /* PinView.xib */,
+				4C3A66BC261DCCA3009E1288 /* MyTabBar.swift */,
 			);
 			path = EFREI_PROJECT_;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				4C33F131261B678D002FF48A /* SpeakerDetailsController.swift */,
 				4C33F13B261BA9CD002FF48A /* CompaniesCollectionViewController.swift */,
 				4C33F145261C8300002FF48A /* LocationMapViewController.swift */,
+				4C3A66B7261DC6C0009E1288 /* MyTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -324,7 +330,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C33F13C261BA9CD002FF48A /* CompaniesCollectionViewController.swift in Sources */,
+				4C3A66B8261DC6C0009E1288 /* MyTabBarController.swift in Sources */,
 				4C33F137261B807A002FF48A /* ActivityCell.swift in Sources */,
+				4C3A66BD261DCCA3009E1288 /* MyTabBar.swift in Sources */,
 				4CD6E70A260B956300193FE0 /* ScheduleTableViewController.swift in Sources */,
 				4C65D113260B5EFE006E7983 /* ViewController.swift in Sources */,
 				4C33F146261C8301002FF48A /* LocationMapViewController.swift in Sources */,

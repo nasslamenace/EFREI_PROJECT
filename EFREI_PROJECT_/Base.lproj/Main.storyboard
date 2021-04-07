@@ -780,7 +780,7 @@
                         <viewLayoutGuide key="safeArea" id="zQt-2x-snk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="m26-QI-P74"/>
+                    <tabBarItem key="tabBarItem" title="Item 2" selectedImage="person.crop.circle" catalog="system" id="m26-QI-P74"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q9j-8v-Lai" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -973,7 +973,7 @@
                             <constraint firstItem="iDC-zS-050" firstAttribute="trailing" secondItem="Icz-b5-eLa" secondAttribute="trailing" id="n8R-Wq-nWz"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="PaV-s6-Ga0"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="mappin.circle" catalog="system" id="PaV-s6-Ga0"/>
                     <connections>
                         <outlet property="adressLbl" destination="d0u-Qw-wNR" id="XQl-Qh-6UP"/>
                         <outlet property="blurryView" destination="Efn-U4-GPY" id="ubU-Wl-McV"/>
@@ -991,20 +991,20 @@
             </objects>
             <point key="canvasLocation" x="1779.7101449275365" y="26.785714285714285"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--My Tab Bar Controller-->
         <scene sceneID="Jjc-hd-Itp">
             <objects>
-                <tabBarController id="0Oy-6q-irX" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x5b-Xf-hdQ">
+                <tabBarController id="0Oy-6q-irX" customClass="MyTabBarController" customModule="EFREI_PROJECT_" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x5b-Xf-hdQ" customClass="MyTabBar" customModule="EFREI_PROJECT_" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="0bS-Fe-BEl" kind="relationship" relationship="viewControllers" id="Wrl-nq-JDe"/>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="DXF-bx-B1f"/>
-                        <segue destination="Ffe-f1-Ujs" kind="relationship" relationship="viewControllers" id="1BP-1r-oC1"/>
-                        <segue destination="qjy-kK-M6v" kind="relationship" relationship="viewControllers" id="vfh-uS-7vL"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="QhS-Om-F3l"/>
+                        <segue destination="Ffe-f1-Ujs" kind="relationship" relationship="viewControllers" id="p0F-YQ-lde"/>
+                        <segue destination="0bS-Fe-BEl" kind="relationship" relationship="viewControllers" id="y2L-Wi-7wt"/>
+                        <segue destination="qjy-kK-M6v" kind="relationship" relationship="viewControllers" id="rjL-JX-0gB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b2g-fn-Thb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1030,7 +1030,7 @@
                         <viewLayoutGuide key="safeArea" id="xr6-T0-PRr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="iae-Yy-iRv"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="house.circle" catalog="system" id="iae-Yy-iRv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aN6-nj-PFm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1064,7 +1064,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="1Pq-By-Bcx"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="dollarsign.circle" catalog="system" id="1Pq-By-Bcx"/>
                     <navigationItem key="navigationItem" id="1r7-G4-5tq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -1077,8 +1077,12 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="cross" width="64" height="64"/>
+        <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
+        <image name="house.circle" catalog="system" width="128" height="121"/>
         <image name="mail" catalog="system" width="128" height="93"/>
+        <image name="mappin.circle" catalog="system" width="128" height="121"/>
         <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="phone" catalog="system" width="128" height="115"/>
         <namedColor name="Night blue">
